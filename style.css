@@ -1,0 +1,177 @@
+
+@media screen and (max-width: 850px){
+   .flex-container{
+      flex-wrap:wrap;
+   }
+
+   header{
+      padding-left:20%;
+      padding-right:20%;
+   }
+
+   main {
+      margin-left:5%;
+      margin-right:5%;
+   }
+}
+
+
+* { 
+   margin: 0px;
+   padding: 8px;
+}
+
+.flex-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   
+}
+
+.flex-item{
+   flex-basis:100%;
+   margin:1%;
+}
+
+
+
+ol.d {
+   border-style: none;
+}
+
+ol.d li {
+   display: block;
+   margin-bottom: 10px;
+   border-style: none;
+   border-radius: 0;
+   background-color: #e1f1f4;
+}
+
+
+
+
+ul {
+   margin: 10px;
+   padding: 30px;
+}
+
+
+
+body {
+ background-color: #97c4b2; 
+   text-align: center;
+   font-family: "Lucida Console", "Courier New", monospace;
+}
+
+li {
+   color: black;
+   text-align: center;
+   display: inline-block;
+   border-width: 3px 3px; 
+   border-radius: 100%;
+   border-color: white;
+   border-style: dotted;
+   
+   
+}
+
+li a {
+   color: black;
+}
+
+
+li a:hover {
+   color: #629E86;
+}
+
+
+h1 {
+  color: #497563;
+   border-style: solid;
+   border-width: 10px 2px;
+   border-color: white;
+   font-size: 20px;
+}
+
+.scriptQuest{
+   padding: 10px;
+   border-style: none;
+   
+   text-align: center;
+   font-size: .9em;
+   line-height: 1.2em;
+   
+   background-color:#366464;
+   
+   margin-top: 30px;
+   margin-right: 35%;
+   margin-left: 35%;
+
+   color:#cae2d8;
+}
+
+
+#script{
+   background-color: #5b8674;
+   border: none;
+   
+   color: white;
+   padding: 15px 32px;
+   
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   
+   transition-duration: .4s;
+}
+
+#script:hover{
+   background-color: white;
+   color: #497563;
+}
+
+h3{
+   border-bottom: 6px solid #5b8674;
+}
+
+.linked {
+   background-color: #5b8674;
+   color: #366464;
+}
+
+.linked a{
+   color: #bee4d7;
+}
+
+.linked a:hover {
+   color: #14332d;
+}
+
+
+.fact-button{
+   border-width: 10px;
+   background-color: #4ea695;
+   
+}
+
+
+#myButton{
+   background-color: #b7e1d4;
+   border: none;
+
+   color: #2c4e43;
+   padding: 15px 32px;
+
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+
+   transition-duration: .4s;
+}
+
+#myButton:hover{
+   background-color: #2c4e43;
+   color: #f5f5f5;
+}
